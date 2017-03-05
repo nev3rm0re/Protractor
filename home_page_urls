@@ -45,3 +45,14 @@ http://www.cfa-uk.co.uk/
 https://www.myjar.com/small-loans
 https://www.myjar.com/borrow-money-online
 https://www.fca.org.uk/
+
+
+
+
+ it('check all hrefs on homepage', function () {
+        element.all(by.css('a')).each(function (element) {
+            var linkTarget = element.getAttribute('href').then(function (attr) {
+                console.log(attr);
+            });
+        });
+    });
