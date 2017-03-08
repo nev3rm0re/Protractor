@@ -1,4 +1,4 @@
-# MyJAR Protractor E2E Testing
+
 
 - You need to install Protractor and start up selenium server
 - Run your tests and enjoy
